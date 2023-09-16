@@ -1,1 +1,1 @@
-# diamondPaintingProduct
+# Diamond Painting Product
