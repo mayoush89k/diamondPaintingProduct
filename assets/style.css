@@ -10,18 +10,24 @@
   --orange: chocolate;
   --light-yellow: rgb(239, 199, 97);
   --dark-yellow: darkgoldenrod;
-  --search-orange:rgb(210 , 141 , 30)
+  --search-orange: rgb(210 , 141 , 30);
 }
 
 /* first Navbar Line */
+#logo{
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  background-position: -10px -51px;
+}
 .nav,
 .nav2-list-items {
-  padding: 5px;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  border: 1px solid transparent;
 }
 .nav:nth-child(1) {
   justify-content: space-between;
@@ -30,10 +36,11 @@
 .nav a {
   color: white;
   text-decoration: none;
+  padding: 5px;
+  border: 1px solid transparent;
 }
 .nav:nth-child(1) a:hover,
 .nav2-items:hover {
-  padding-top: 5.1px; /* move a little bit down */
   border: 1px solid white;
 }
 nav em {
@@ -119,7 +126,8 @@ nav em {
   list-style: none;
 }
 .nav2-items {
-  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid transparent;
 }
 
 /* Third navbar line */
@@ -193,7 +201,13 @@ main {
   text-decoration: none;
 }
 #star {
-  color: var(--orange);
+  /* color: var(--orange); */
+  background-image: url(./images/sympols.png);
+  width: 130px;
+    height: 18px;
+    background-position: -29px -225px;
+    background-size: 532px 512px;
+    background-repeat: no-repeat;
 }
 #choice {
   background-color: black;
